@@ -19,27 +19,29 @@ define('SITE_TITLE', "ElijahStreams Rebuild 2025")
   <!-- START BODY -->
 
   <div class="container">
-    <header>
-      <!-- Header content -->
-      hi
-    </header>
+  <header>
+    <!-- Header content -->
+    Header
+  </header>
 
-    <nav>
-      <!-- Navigation -->
-    </nav>
-
+  <div class="content-wrapper">
     <main>
       <!-- Main content -->
+      Main content
     </main>
 
     <aside>
       <!-- Sidebar / Ads -->
+      Sidebar
     </aside>
-
-    <footer>
-      <!-- Footer content -->
-    </footer>
   </div>
+
+  <footer>
+    <!-- Footer content -->
+    Footer
+  </footer>
+</div>
+
 
   <!-- END BODY -->
 
