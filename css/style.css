@@ -61,9 +61,10 @@ aside {
 
 
 .box {
-  width: 200px;
+  width: 768px;
+  height: 432px;
   border: 2px solid purple;
-  background-image: var(--dummy-vid-thumb) !important;
+  background-image: var(--dummy-vid-thumb);
 }
 
 
