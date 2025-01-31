@@ -1,1 +1,4 @@
-<h3><?php echo "Hello!" ?></h3>
+<h3><?php echo basename(__FILE__) ?></h3>
+
+<article class="box">
+</article>
