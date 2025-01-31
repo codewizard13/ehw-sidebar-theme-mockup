@@ -29,6 +29,7 @@ define('SITE_TITLE', "ElijahStreams Rebuild 2025")
     <main>
       <!-- Main content -->
       Main content
+      
     </main>
 
     <aside>

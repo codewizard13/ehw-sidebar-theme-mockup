@@ -59,3 +59,53 @@ aside {
 
 
 
+/* 🟢 Tablet Breakpoint (Keep Sidebar Next to Main) */
+@media (max-width: 1024px) {
+  .content-wrapper {
+    grid-template-columns: 3fr 1fr; /* Adjust proportions */
+    max-width: 95%; /* Slightly reduce max width */
+    gap: 8px;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  aside {
+    padding: 1rem;
+    text-align: center;
+  }
+}
+
+
+/* 🔵 Mobile Breakpoint (One Column Layout) */
+@media (max-width: 768px) {
+  .container {
+    grid-template-areas:
+      "header"
+      "content"
+      "side"
+      "footer";
+  }
+
+  .content-wrapper {
+    grid-template-areas:
+      "content"
+      "side";
+    grid-template-columns: 1fr;
+    width: 100%;
+    max-width: 100%;
+    gap: 5px;
+  }
+
+  header,
+  footer {
+    padding: 0.75rem;
+    text-align: center;
+  }
+
+  main,
+  aside {
+    padding: 1rem;
+  }
+}
