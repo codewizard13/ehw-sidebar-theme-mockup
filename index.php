@@ -9,6 +9,7 @@ define('SITE_TITLE', "ElijahStreams Rebuild 2025")
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php echo SITE_TITLE ?></title>
+  <link rel="stylesheet" href="css/reset-josh-c.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
