@@ -36,18 +36,9 @@
 
 ### index.php
 
-**Desktop:**
 
-![index.php [branch 03]](/img/ehd-mockup-sizes-01.jpg)
+![index.php [branch 03]](/img/ehd-mockup-sizes-02.jpg)
 
-
-**Tablet:**
-
-![index.php [branch 03]](/)
-
-**Mobile:**
-
-![index.php [branch 03]](/)
 
 
 
