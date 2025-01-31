@@ -61,10 +61,12 @@ aside {
 
 
 .box {
-  width: 768px;
-  height: 432px;
+  width: 100%;
+  aspect-ratio: 768 / 432;
   border: 2px solid purple;
   background-image: var(--dummy-vid-thumb);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
