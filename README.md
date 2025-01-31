@@ -32,6 +32,28 @@
 
 <br>
 
+## SCREENSHOT
+
+### index.php
+
+**Desktop:**
+
+![index.php [branch 03]](/img/ehd-mockup-sizes-01.jpg)
+
+
+**Tablet:**
+
+![index.php [branch 03]](/)
+
+**Mobile:**
+
+![index.php [branch 03]](/)
+
+
+
+
+
+
 ## TAGS
 
 `Tutwrk` `WordPress` `WordPress Themes` `Themes from Scratch`
