@@ -29,7 +29,10 @@ define('SITE_TITLE', "ElijahStreams Rebuild 2025")
     <main>
       <!-- Main content -->
       Main content
-      
+      <?php include ( 'inc/main-content.php') ?>
+      <article class="box">
+        This is a BOX
+      </article>
     </main>
 
     <aside>
