@@ -1,8 +1,11 @@
 /* style.css */
 
-body {
-  margin: 0;
+:root {
+  --sidebar-width: 272px;
+  --content-max-width: 1185px;
 }
+
+
 
 .container {
   display: grid;
@@ -20,8 +23,8 @@ body {
   display: grid;
   grid-template-areas:
     "content side";
-  grid-template-columns: 1fr 175px;
-  max-width: 1100px; /* Limits content width */
+  grid-template-columns: 1fr var(--sidebar-width);
+  max-width: var(--content-max-width); /* Limits content width */
   width: 100%;
   margin: 0 auto; /* Centers content */
   gap: 10px;
