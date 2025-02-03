@@ -40,11 +40,6 @@
 ![index.php [branch 03]](/img/ehd-mockup-sizes-02.jpg)
 
 
-
-
-
-
-
 ## TAGS
 
 `Tutwrk` `WordPress` `WordPress Themes` `Themes from Scratch`
