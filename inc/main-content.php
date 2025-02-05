@@ -1,23 +1,16 @@
-<h3><?php echo basename(__FILE__) ?></h3>
+<h3><?php //echo basename(__FILE__) ?></h3>
 
 <?php include 'parts/tp-vid-thumb.php'; ?>
 
 
-<style>
-.flex-row {
-  display: flex;
-}
-.flex-row article {
-  flex: 1;
-  flex-direction: row;
-}
-</style>
-<section class="flex-row">
+<section class="grid-container">
 
-<?php
-for ($i = 0; $i < 4; $i++) {
-  include 'parts/tp-vid-thumb.php';
-}
-?>
+
+  <?php
+  // Mockup 4 dummy vid posts
+  for ($i = 0; $i < 12; $i++) {
+    include 'parts/tp-vid-thumb.php';
+  }
+  ?>
 
 </section>

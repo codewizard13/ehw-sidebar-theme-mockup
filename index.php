@@ -26,9 +26,9 @@ define('SITE_TITLE', "ElijahStreams Rebuild 2025")
   </header>
 
   <div class="content-wrapper">
-    <main>
+    <main class="main-content">
       <!-- Main content -->
-      Main content
+      <header class="header-banner">Main Content</header>
       <?php include ( 'inc/main-content.php') ?>
 
     </main>
