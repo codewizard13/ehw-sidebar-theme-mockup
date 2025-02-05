@@ -4,7 +4,7 @@
 | File Name     | README.md                                                        |
 | Date Created  | 01/31/2025                                                       |
 | Date Modified | 02/05/2025                                                       |
-| Version       | 00.01.02                                                         |
+| Version       | 00.01.03                                                         |
 | Programmer    | **Eric Hepperle**                                                |
 
 ### GITHUB REPO
@@ -36,9 +36,9 @@
 
 ### index.php
 
-**_index.php: 2025-02-05 [v 1.02] - Video Grid + Header Banner_**
+**_index.php: 2025-02-05 [v 1.03] - Add top video title and Latest Videos heading_**
 
-![index.php: 2025-02-05 [v 1.02] - Video Grid + Header Banner](/screens/screen-002--index-05.jpg)
+![index.php: 2025-02-05 [v 1.03] - Video Grid + Header Banner](/screens/screen-002--index-06.jpg)
 
 ### Screen Sizes
 
