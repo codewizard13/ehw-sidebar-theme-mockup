@@ -5,6 +5,8 @@
 
 <section class="video-grid">
 
+  <h2 class="sec-header">Latest Videos</h2>
+
   <div class="grid-container">
 
     <?php

@@ -107,6 +107,10 @@ main {
   background-repeat: no-repeat;
 }
 
+.sec-header {
+  margin: .2rem 0 1rem;
+}
+
 
 
 
@@ -139,6 +143,9 @@ main {
 
 
 /* /////////////  BREAKPOINTS   //////////// */
+
+
+
 
 /* 🟢 Tablet Breakpoint (Keep Sidebar Next to Main) */
 @media (max-width: 1024px) {
