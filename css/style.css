@@ -97,6 +97,28 @@ aside {
 
 
 
+
+
+/* GRID CONTAINERS / VIDEO GRID */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+/* /////////////  BREAKPOINTS   //////////// */
+
 /* 🟢 Tablet Breakpoint (Keep Sidebar Next to Main) */
 @media (max-width: 1024px) {
   .content-wrapper {
@@ -113,6 +135,14 @@ aside {
     padding: 1rem;
     text-align: center;
   }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+  }
+
 }
 
 
@@ -146,20 +176,12 @@ aside {
   aside {
     padding: 1rem;
   }
-}
 
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+  }  
 
-/* GRID CONTAINERS / VIDEO GRID */
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 10px;
-}
-
-.grid-item {
-  background-color: #f0f0f0;
-  padding: 20px;
-  text-align: center;
 }
