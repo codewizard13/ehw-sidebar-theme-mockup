@@ -33,9 +33,9 @@ define('SITE_TITLE', "ElijahStreams Rebuild 2025")
 
     </main>
 
-    <aside>
+    <aside class="sidebar">
       <!-- Sidebar / Ads -->
-      Sidebar
+      <?php include ( 'inc/sidebar-main.php') ?>
     </aside>
   </div>
 

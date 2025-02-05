@@ -47,6 +47,9 @@ html * {
   gap: 10px;
 }
 
+
+/* :::::: SECTIONS */
+
 /* Header and Footer spanning full width */
 header,
 footer {
@@ -69,10 +72,12 @@ main {
   background: lightblue;
 }
 
-aside {
+.sidebar {
   grid-area: side;
   background: lightgreen
 }
+
+
 
 
 
@@ -123,6 +128,11 @@ aside {
 
 .video-grid {
   margin: 1rem auto;
+}
+
+.sidebar .grid-container {
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
 
