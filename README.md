@@ -36,6 +36,11 @@
 
 ### index.php
 
+**_index.php: 2025-02-05 - Video Grid + Header Banner_**
+
+![index.php: 2025-02-05 - Video Grid + Header Banner](/screens/screen-002--index-04.png)
+
+### Screen Sizes
 
 ![index.php [branch 03]](/img/ehd-mockup-sizes-02.jpg)
 
