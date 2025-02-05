@@ -1,4 +1,5 @@
-<article class="thumb">
-  <h3><?php echo basename(__FILE__) ?></h3>
+<?php $dummy_vid_title = "Johnny Enlow Unfiltered 138" ?>
 
-</article>
+<div class="thumb">
+  <h3><?php echo basename(__FILE__) ?></h3>
+</div>

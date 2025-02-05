@@ -112,6 +112,15 @@ main {
 }
 
 
+/* Top Vid Section */
+
+.top-vid-sec {
+  margin-bottom: 2rem;
+}
+.top-vid-sec .vid-title {
+  font-size: 2.5rem;
+}
+
 
 
 

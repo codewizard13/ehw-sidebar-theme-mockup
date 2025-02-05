@@ -1,6 +1,4 @@
-<?php
-define('SITE_TITLE', "ElijahStreams Rebuild 2025")
-?>
+<?php require_once( 'init.php' ); ?>
 
 <!DOCTYPE html>
 <html lang="en">

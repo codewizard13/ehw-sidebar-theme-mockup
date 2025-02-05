@@ -1,6 +1,9 @@
 <h3><?php //echo basename(__FILE__) ?></h3>
 
-<?php include 'parts/tp-vid-thumb.php'; ?>
+<section class="top-vid-sec">
+  <?php include 'parts/tp-top-video.php'; ?>
+
+</section>
 
 
 <section class="video-grid">
