@@ -9,7 +9,7 @@
 
     <?php
     // Mockup 4 dummy vid posts
-    for ($i = 0; $i < 12; $i++) {
+    for ($i = 0; $i < 5; $i++) {
       include 'parts/tp-vid-thumb.php';
     }
     ?>
