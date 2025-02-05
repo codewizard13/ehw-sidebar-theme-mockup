@@ -1,11 +1,11 @@
-| INFO PROPERTY | VALUE                                   |
-| ------------- | --------------------------------------- |
+| INFO PROPERTY | VALUE                                                            |
+| ------------- | ---------------------------------------------------------------- |
 | Program Name  | **PHP MOCKUP: EHW Right-Sidebar WordPress Theme (from scratch)** |
-| File Name     | README.md                               |
-| Date Created  | 01/31/2025                                |
-| Date Modified | --                                      |
-| Version       | 00.01.00                                |
-| Programmer    | **Eric Hepperle**                       |
+| File Name     | README.md                                                        |
+| Date Created  | 01/31/2025                                                       |
+| Date Modified | 02/05/2025                                                       |
+| Version       | 00.01.02                                                         |
+| Programmer    | **Eric Hepperle**                                                |
 
 ### GITHUB REPO
 
@@ -32,13 +32,13 @@
 
 <br>
 
-## SCREENSHOT
+## SCREENSHOTS
 
 ### index.php
 
-**_index.php: 2025-02-05 - Video Grid + Header Banner_**
+**_index.php: 2025-02-05 [v 1.02] - Video Grid + Header Banner_**
 
-![index.php: 2025-02-05 - Video Grid + Header Banner](/screens/screen-002--index-04.png)
+![index.php: 2025-02-05 [v 1.02] - Video Grid + Header Banner](/screens/screen-002--index-05.jpg)
 
 ### Screen Sizes
 

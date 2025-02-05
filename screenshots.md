@@ -19,12 +19,3 @@ Document site development progress with screenshots (_top-bottom = latest-oldest
 
 ![index.php [branch 03]](/img/ehd-mockup-sizes-02.jpg)
 
-
-## TAGS
-
-`Tutwrk` `WordPress` `WordPress Themes` `Themes from Scratch`
-
-
-## PURPOSE
-
-This is a mockup I hand-coded from scratch that will be used to design a custom WordPress theme. The theme will have a homepage with right-sidebar.
