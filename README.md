@@ -53,3 +53,5 @@
 ## PURPOSE
 
 This is a mockup I hand-coded from scratch that will be used to design a custom WordPress theme. The theme will have a homepage with right-sidebar.
+
+TESTING if git branch commands worked ...
