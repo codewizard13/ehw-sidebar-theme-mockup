@@ -131,49 +131,87 @@ main {
 
 /* Video Meta */
 
+/* Parent Container for Video Meta */
 .vid-meta {
-  padding: 0.4rem 0;
   display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-}
-
-.flex-group:first-of-type {
-  display: flex;
-  column-gap: 1rem;
   flex-wrap: wrap;
+  align-items: center; /* Align items vertically centered */
+  justify-content: space-between; /* Ensure space between fixed and flexible items */
+  gap: 1rem; /* Add spacing between items */
 }
 
-.flex-group:first-of-type > * {
+/* Fixed Width for Time Meta */
+.time-meta {
   display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 auto; /* Prevent resizing */
+  max-width: 200px; /* Set a consistent width */
+  white-space: nowrap; /* Prevent wrapping */
+  overflow: hidden; /* Avoid overflow issues */
+  text-overflow: ellipsis; /* Add ellipsis for truncated text */
 }
 
-.prop-label {
-  font-weight: bold;
-  margin-right: 0.6rem;
-  background: salmon;
+/* Meta Group (Flexible, Behaves Like a Word Processor) */
+.meta-group {
+  display: flex;
+  flex: 1 1 auto; /* Allow resizing */
+  flex-wrap: wrap; /* Wrap items naturally when space is limited */
+  gap: 1rem; /* Add spacing between items */
 }
 
-.prop-label h4 {
-  background: lightcyan;
-  border: dashed 1px red;
+/* Meta Item within Meta Group */
+.meta-group .meta-item {
+  display: flex;
+  flex-direction: column;
+  min-width: 0; /* Prevent overflow issues */
+  flex: 1 1 300px; /* Flexible width with a minimum of 300px */
 }
 
+/* Heading and Link Text */
+.prop-label h4,
+.comma-sep-list h4 {
+  white-space: nowrap; /* Prevent wrapping */
+  overflow: hidden; /* Avoid overflow issues */
+  text-overflow: ellipsis; /* Add ellipsis for truncated text */
+}
+
+/* Comma-Separated List */
 .comma-sep-list {
-  background: aliceblue;
-  padding: .2rem .6rem;
   display: flex;
+  flex-wrap: wrap; /* Wrap items naturally */
+  gap: 0.4rem; /* Add spacing between items */
 }
+
 .comma-sep-list > * {
-  display: flex;
-  margin-right: .4rem;
-
+  display: inline-flex;
+  align-items: center;
 }
-.comma-sep-list > *::after {
-  content: ',';
 
+.comma-sep-list > *::after {
+  content: ','; /* Add a comma separator */
+  margin-left: 0.2rem; /* Add spacing after the comma */
+}
+
+.comma-sep-list > *:last-child::after {
+  content: ''; /* Remove the comma for the last item */
+}
+
+/* Fixed Size for Share Button */
+.btn-share {
+  flex: 0 0 auto; /* Prevent resizing */
+  width: 76px; /* Fixed width */
+  height: 31px; /* Fixed height */
+  padding: 6px; /* Consistent padding */
+  text-align: center; /* Center text within the button */
+  background-color: var(--color-primary, #007bff); /* Example button color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 4px; /* Add rounded corners */
+  cursor: pointer;
+}
+
+.btn-share:hover {
+  background-color: var(--color-primary-hover, #0056b3); /* Hover state color */
 }
 
 
