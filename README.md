@@ -3,8 +3,8 @@
 | Program Name  | **PHP MOCKUP: EHW Right-Sidebar WordPress Theme (from scratch)** |
 | File Name     | README.md                                                        |
 | Date Created  | 01/31/2025                                                       |
-| Date Modified | 02/05/2025                                                       |
-| Version       | 00.01.03                                                         |
+| Date Modified | 02/06/2025                                                       |
+| Version       | 00.01.04                                                         |
 | Programmer    | **Eric Hepperle**                                                |
 
 ### GITHUB REPO
@@ -36,9 +36,9 @@
 
 ### index.php
 
-**_index.php: 2025-02-05 [v 1.03] - Add top video title and Latest Videos heading_**
+**_index.php: 2025-02-05 [v 1.04] - ADD top vid meta, Bootstrap icons_**
 
-![index.php: 2025-02-05 [v 1.03] - Video Grid + Header Banner](/screens/screen-002--index-06.jpg)
+![index.php: 2025-02-05 [v 1.04] - ADD top vid meta, Bootstrap icons](/screens/screen-104--01--index-af.png)
 
 ### Screen Sizes
 
