@@ -105,7 +105,12 @@ main {
   background: lightgreen;
 }
 
+
+
+
 /* ::::: SUBSECTIONS */
+
+
 
 /* Main Header Banner  */
 
@@ -116,6 +121,7 @@ main {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-transform: uppercase;
 }
+
 
 /* Video Meta */
 
@@ -143,6 +149,26 @@ main {
   margin-right: 0.6rem;
 }
 
+.comma-sep-list {
+  background: aliceblue;
+  padding: .2rem .6rem;
+  display: flex;
+}
+.comma-sep-list > * {
+  margin: 0;
+  padding: 0 !important;
+  /* wrap: no-wrap; */
+  display:flex
+}
+.comma-sep-list > *::after {
+  content: ',';
+
+}
+
+
+
+
+
 /* Video Thumbnails */
 
 .thumb {
@@ -166,6 +192,8 @@ main {
 .top-vid-sec .vid-title {
   font-size: 2.5rem;
 }
+
+
 
 /* GRID CONTAINERS / VIDEO GRID */
 
@@ -191,7 +219,16 @@ main {
   grid-template-rows: repeat(3, 1fr);
 }
 
+
+
+
+
+
+
+
+
 /* /////////////  BREAKPOINTS   //////////// */
+
 
 /* 🟢 Tablet Breakpoint (Keep Sidebar Next to Main) */
 @media (max-width: 1024px) {
