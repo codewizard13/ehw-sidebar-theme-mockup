@@ -1,4 +1,4 @@
-<?php require_once( 'init.php' ); ?>
+<?php require_once('init.php'); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php echo SITE_TITLE ?></title>
   <link rel="stylesheet" href="css/reset-josh-c.css">
+  <!-- Option 1: Include in HTML -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -18,30 +21,30 @@
   <!-- START BODY -->
 
   <div class="container">
-  <header>
-    <!-- Header content -->
-    Header
-  </header>
+    <header>
+      <!-- Header content -->
+      Header
+    </header>
 
-  <div class="content-wrapper">
-    <main class="main-content">
-      <!-- Main content -->
-      <header class="header-banner">Main Content</header>
-      <?php include ( 'inc/main-content.php') ?>
+    <div class="content-wrapper">
+      <main class="main-content">
+        <!-- Main content -->
+        <header class="header-banner">Main Content</header>
+        <?php include('inc/main-content.php') ?>
 
-    </main>
+      </main>
 
-    <aside class="sidebar">
-      <!-- Sidebar / Ads -->
-      <?php include ( 'inc/sidebar-main.php') ?>
-    </aside>
+      <aside class="sidebar">
+        <!-- Sidebar / Ads -->
+        <?php include('inc/sidebar-main.php') ?>
+      </aside>
+    </div>
+
+    <footer>
+      <!-- Footer content -->
+      Footer
+    </footer>
   </div>
-
-  <footer>
-    <!-- Footer content -->
-    Footer
-  </footer>
-</div>
 
 
   <!-- END BODY -->

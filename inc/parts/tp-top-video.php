@@ -12,6 +12,7 @@
   <div class="flex-group">
 
     <div class="meta-item">
+    <i style="font-weight:bold; color:var(--color-secondary);" class="bi bi-calendar3"></i>
       <span class="prop-label">📅</span>
       <span><time>February 5, 2025</time></span>
     </div><!-- END meta-item -->
