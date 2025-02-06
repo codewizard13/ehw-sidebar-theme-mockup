@@ -27,7 +27,6 @@
         <span>
           <h4><a href="#">Candy Christmas</a></h4>
         </span>
-
       </div><!-- END comma-sep-list -->
     </div><!-- END meta-item -->
 
@@ -35,12 +34,19 @@
       <span class="prop-label">
         <h4>Hosts:</h4>
       </span>
-      <span>
+      <div class="comma-sep-list">
+        <span>
         <h4>
           <a href="https://elijahstreams.com/guests/steve-shultz/">Steve Shultz</a>
         </h4>
-      </span>
+        </span>
+        <span>
+          <h4><a href="#">Johnny Enlow</a></h4>
+        </span>
+      </div><!-- END comma-sep-list -->
     </div><!-- END meta-item -->
+
+
 
   </div><!-- END flex-group -->
 
