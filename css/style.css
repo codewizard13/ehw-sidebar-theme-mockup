@@ -6,23 +6,53 @@
 */
 
 :root {
+
+  /* COLORS */
+
+  --clr-oxford-blue: #0E1C36;
+  --clr-robin-egg-blue: #00CAD0;
+  --clr-onyx: #373943;
+  --clr-amethyst: #9a6fd7;
+
+  --color-primary: teal;
+  --color-secondary: var(--clr-oxford-blue);
+  --color-accent-prim: var(--clr-robin-egg-blue);
+  --color-accent-sec: var(--clr-amethyst);
+  --color-text-base: var(--clr-onyx);
+
+  /* MEASUREMENTS */
+
   --sidebar-width: 272px;
   --content-max-width: 1185px;
+
+  /* GRADIENTS */
+
+  --gradient-1: linear-gradient(
+    180deg,
+    rgba(244, 67, 54, 1) 0%,
+    rgba(230, 255, 0, 1) 50%,
+    rgba(244, 67, 54, 1) 100%
+  );
+  --gradient-2: linear-gradient(
+    180deg,
+    rgba(54, 91, 244, 1) 0%,
+    rgba(0, 255, 237, 1) 40%,
+    rgba(0, 184, 255, 1) 92%
+  );
+
+  /* FONTS */
+
+  --font-fam-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+  /* IMAGES */
+
   --dummy-vid-thumb: url("placeholder-vid-thumb-768x432.jpg");
-  --gradient-1: linear-gradient(180deg, rgba(244, 67, 54, 1) 0%, rgba(230, 255, 0, 1) 50%, rgba(244, 67, 54, 1) 100%);
-  --gradient-2: linear-gradient(180deg, rgba(54, 91, 244, 1) 0%, rgba(0, 255, 237, 1) 40%, rgba(0, 184, 255, 1) 92%);
-
-/* Fonts */
-
-  --font-fam-main: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
-
-
 }
 
 html * {
   font-family: var(--font-fam-main);
 }
-
 
 .container {
   display: grid;
@@ -38,15 +68,13 @@ html * {
 /* A wrapper to contain the main grid */
 .content-wrapper {
   display: grid;
-  grid-template-areas:
-    "content side";
+  grid-template-areas: "content side";
   grid-template-columns: 1fr var(--sidebar-width);
   max-width: var(--content-max-width); /* Limits content width */
   width: 100%;
   margin: 0 auto; /* Centers content */
   gap: 10px;
 }
-
 
 /* :::::: SECTIONS */
 
@@ -74,15 +102,10 @@ main {
 
 .sidebar {
   grid-area: side;
-  background: lightgreen
+  background: lightgreen;
 }
 
-
-
-
-
 /* ::::: SUBSECTIONS */
-
 
 /* Main Header Banner  */
 
@@ -90,16 +113,14 @@ main {
   background: var(--gradient-2);
   text-align: center;
   font-weight: bold;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-transform: uppercase;
 }
-
-
 
 /* Video Meta */
 
 .vid-meta {
-  padding: .4rem 0;
+  padding: 0.4rem 0;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -119,10 +140,8 @@ main {
 
 .prop-label {
   font-weight: bold;
-  margin-right: .6rem;
+  margin-right: 0.6rem;
 }
-
-
 
 /* Video Thumbnails */
 
@@ -136,9 +155,8 @@ main {
 }
 
 .sec-header {
-  margin: .2rem 0 1rem;
+  margin: 0.2rem 0 1rem;
 }
-
 
 /* Top Vid Section */
 
@@ -148,9 +166,6 @@ main {
 .top-vid-sec .vid-title {
   font-size: 2.5rem;
 }
-
-
-
 
 /* GRID CONTAINERS / VIDEO GRID */
 
@@ -176,13 +191,7 @@ main {
   grid-template-rows: repeat(3, 1fr);
 }
 
-
-
-
 /* /////////////  BREAKPOINTS   //////////// */
-
-
-
 
 /* 🟢 Tablet Breakpoint (Keep Sidebar Next to Main) */
 @media (max-width: 1024px) {
@@ -207,9 +216,7 @@ main {
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
   }
-
 }
-
 
 /* 🔵 Mobile Breakpoint (One Column Layout) */
 @media (max-width: 512px) {
@@ -247,6 +254,5 @@ main {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
-  }  
-
+  }
 }
