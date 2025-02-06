@@ -153,6 +153,12 @@ main {
 .prop-label {
   font-weight: bold;
   margin-right: 0.6rem;
+  background: salmon;
+}
+
+.prop-label h4 {
+  background: lightcyan;
+  border: dashed 1px red;
 }
 
 .comma-sep-list {
@@ -161,11 +167,8 @@ main {
   display: flex;
 }
 .comma-sep-list > * {
-  /* margin: 0;
-  padding: 0 !important; */
-  /* wrap: no-wrap; */
   display: flex;
-  margin-right: 1rem;
+  margin-right: .4rem;
 
 }
 .comma-sep-list > *::after {
