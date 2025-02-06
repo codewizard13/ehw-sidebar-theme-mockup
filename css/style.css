@@ -48,6 +48,12 @@
   /* IMAGES */
 
   --dummy-vid-thumb: url("placeholder-vid-thumb-768x432.jpg");
+
+  /* Emojis & Icons */
+
+  --ico-calendar-1: '📅';
+  --ico-calendar-2: '📅';
+
 }
 
 html * {
@@ -224,8 +230,15 @@ main {
 
 
 
+/* ::::: ICONS & EMOJIS */
 
+.ico-cal-1::before {
+  content: var(--ico-calendar-1);
+}
 
+.ico-cal-2::before {
+  content: var(--ico-calendar-2);
+}
 
 
 
