@@ -1,4 +1,3 @@
-<?php $dummy_vid_title = "Johnny Enlow Unfiltered 138" ?>
 
 <?php include('tp-vid-thumb.php') ?>
 
