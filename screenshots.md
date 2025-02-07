@@ -9,6 +9,13 @@ Document site development progress with screenshots (_top-bottom = latest-oldest
 
 ### 📆 2025-02-06
 
+**#GOTCHA:**
+
+**_index.php: 2025-02-05 [v 1.04] - BROKEN: Vid meta flexbox styles not wrapping correctly_**
+
+![index.php: 2025-02-05 [v 1.04] - BROKEN: Vid meta flexbox styles not wrapping correctly](/screens/screen-104--08--err--index--vid-meta-flex.jpg)
+
+
 **_index.php: 2025-02-05 [v 1.04] - ADD top vid meta, Bootstrap icons_**
 
 ![index.php: 2025-02-05 [v 1.04] - ADD top vid meta, Bootstrap icons](/screens/screen-104--01--index-af.jpg)
