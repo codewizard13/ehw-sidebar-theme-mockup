@@ -44,7 +44,7 @@
 
 **_index.php: 2025-02-05 [v 1.04] - ADD top vid meta, Bootstrap icons_**
 
-![index.php: 2025-02-05 [v 1.04] - ADD top vid meta, Bootstrap icons](/screens/screen-104--01--index-af.png)
+![index.php: 2025-02-05 [v 1.04] - ADD top vid meta, Bootstrap icons](/screens/screen-104--01--index-af.jpg)
 
 ### Screen Sizes
 
