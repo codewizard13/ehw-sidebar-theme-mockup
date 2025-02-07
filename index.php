@@ -34,6 +34,7 @@
         <header class="header-banner">Main Content</header>
         <?php include('inc/main-content.php') ?>
         <?php include('inc/parts/tp-cta-1.php') ?>
+        <?php include('inc/parts/tp-cta-2.php') ?>
 
       </main><!-- END main-content -->
 
