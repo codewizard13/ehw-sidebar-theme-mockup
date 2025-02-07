@@ -7,6 +7,18 @@
 
 Document site development progress with screenshots (_top-bottom = latest-oldest_).
 
+### 📆 2025-02-07
+
+**_index.php: 2025-02-07 [v 1.05] - Full with CTAS_**
+
+![index.php: 2025-02-07 [v 1.05] - Full with CTAS](/screens/screen-105--01--index-f.jpg)
+
+
+
+**_index.php: 2025-02-07 [v 1.05] - CTAS sec done except button_**
+
+![index.php: 2025-02-07 [v 1.05] - CTAS sec done except button](/screens/screen-105--01--index--sec-ctas.jpg)
+
 ### 📆 2025-02-06
 
 **#GOTCHA:**

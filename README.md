@@ -4,7 +4,7 @@
 | File Name     | README.md                                                        |
 | Date Created  | 01/31/2025                                                       |
 | Date Modified | 02/06/2025                                                       |
-| Version       | 00.01.04                                                         |
+| Version       | 00.01.05                                                         |
 | Programmer    | **Eric Hepperle**                                                |
 
 ### GITHUB REPO
@@ -36,15 +36,9 @@
 
 ### index.php
 
+**_index.php: 2025-02-07 [v 1.05] - Full with CTAS_**
 
-**_index.php: 2025-02-06 [v 1.04] - BROKEN: Vid meta flexbox styles not wrapping correctly_**
-
-![index.php: 2025-02-06 [v 1.04] - BROKEN: Vid meta flexbox styles not wrapping correctly](/screens/screen-104--08--err--index--vid-meta-flex.jpg)
-
-
-**_index.php: 2025-02-06 [v 1.04] - ADD top vid meta, Bootstrap icons_**
-
-![index.php: 2025-02-06 [v 1.04] - ADD top vid meta, Bootstrap icons](/screens/screen-104--01--index-af.jpg)
+![index.php: 2025-02-07 [v 1.05] - Full with CTAS](/screens/screen-105--01--index-f.jpg)
 
 ### Screen Sizes
 
