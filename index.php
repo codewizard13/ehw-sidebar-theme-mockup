@@ -27,17 +27,24 @@
     </header>
 
     <div class="content-wrapper">
+
+      <!-- BEGIN main-content -->
       <main class="main-content">
-        <!-- Main content -->
+
         <header class="header-banner">Main Content</header>
         <?php include('inc/main-content.php') ?>
+        <?php include('inc/parts/tp-cta-1.php') ?>
 
-      </main>
+      </main><!-- END main-content -->
 
+      <!-- BEGIN sidebar -->
       <aside class="sidebar">
+
         <!-- Sidebar / Ads -->
         <?php include('inc/sidebar-main.php') ?>
-      </aside>
+      
+      </aside><!-- END sidebar -->
+
     </div>
 
     <footer>
