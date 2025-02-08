@@ -42,6 +42,9 @@
       <aside class="sidebar">
 
         <?php include('inc/parts/tp-ad-banner-1.php') ?>
+
+        <?php include('inc/parts/tp-btn-1.php') ?>
+
         <!-- Sidebar / Ads -->
         <?php include('inc/sidebar-main.php') ?>
       
