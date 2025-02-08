@@ -7,19 +7,37 @@ function make_button(
   $text_color = 'black',
   $full_width = false,
   $has_icon = false,
-  $icon_str = '',
-  $icon_right = true
+  $icon_classes = '',
+  $icon_side = 'right'
 ) {
+
+  // Init
+  $icon_left = '';
+  $icon_right = '';
 
   $style = "background-color: $background_color;";
   $style .= "color: $text_color;";
 
+  if ($has_icon) {
+    if ('left' == $icon_side) {
+      $icon_left = "<i class='$icon_classes'></i>";
+      $icon_right = "";
+    } else {
+      $icon_right = "<i class='$icon_classes'></i>";
+      $icon_left = "";
+    }
+  }
+  if ($full_width) {
+    $style .= "width: 100%;";
+  }
 
-  $html = "<button ";
-  $html .= "$style >$text";
+  $html = "<button class='btn-main'";
+  $html .= "style='$style' >$icon_left$text$icon_right";
   $html .= "</button>";
 
   echo $html;
 }
 
 make_button();
+
+make_button( 'Give Now!', 'purple', 'white', true );
