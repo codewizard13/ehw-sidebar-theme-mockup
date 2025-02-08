@@ -1,4 +1,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
 
 <?php
 function make_button(
@@ -20,10 +23,10 @@ function make_button(
 
   if ($has_icon) {
     if ('left' == $icon_side) {
-      $icon_left = "<i class='$icon_classes'></i>";
+      $icon_left = "<i class='btn-icon-left $icon_classes'></i>";
       $icon_right = "";
     } else {
-      $icon_right = "<i class='$icon_classes'></i>";
+      $icon_right = "<i class='btn-icon-left $icon_classes'></i>";
       $icon_left = "";
     }
   }
@@ -40,4 +43,6 @@ function make_button(
 
 make_button();
 
-make_button( 'Give Now!', 'purple', 'white', true );
+make_button( 'Give Now!', 'purple', 'white', true, true, "bi bi-hand-index-fill", 'left' );
+make_button( 'Give Now!', 'purple', 'white', true, true, "bi bi-hand-index-fill", 'right' );
+make_button( 'Give Now!', 'purple', 'white', true, true, "fa fa-folder", 'left' );

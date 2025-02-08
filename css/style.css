@@ -327,7 +327,12 @@ main {
 }
 
 
-
+.btn-icon-left {
+  margin-right: .3rem;
+}
+.btn-icon-right {
+  margin-left: .3rem;
+}
 
 
 
