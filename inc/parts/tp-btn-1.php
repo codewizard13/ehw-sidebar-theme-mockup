@@ -1,16 +1,25 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!-- Add font awesome icons to buttons  -->
-<p>Icon buttons:</p>
-<button class="btn"><i class="fa fa-home"></i></button>
-<button class="btn"><i class="fa fa-bars"></i></button>
-<button class="btn"><i class="fa fa-trash"></i></button>
-<button class="btn"><i class="fa fa-close"></i></button>
-<button class="btn"><i class="fa fa-folder"></i></button>
+<?php
+function make_button(
+  $text = 'Submit',
+  $background_color = 'gray',
+  $text_color = 'black',
+  $full_width = false,
+  $has_icon = false,
+  $icon_str = '',
+  $icon_right = true
+) {
 
-<p>Icon buttons with text:</p>
-<button class="btn"><i class="fa fa-home"></i> Home</button>
-<button class="btn"><i class="fa fa-bars"></i> Menu</button>
-<button class="btn"><i class="fa fa-trash"></i> Trash</button>
-<button class="btn"><i class="fa fa-close"></i> Close</button>
-<button class="btn"><i class="fa fa-folder"></i> Folder</button>
+  $style = "background-color: $background_color;";
+  $style .= "color: $text_color;";
+
+
+  $html = "<button ";
+  $html .= "$style >$text";
+  $html .= "</button>";
+
+  echo $html;
+}
+
+make_button();
