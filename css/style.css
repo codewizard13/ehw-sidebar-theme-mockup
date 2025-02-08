@@ -283,6 +283,8 @@ main {
 
 
 
+
+
 /* CTA & Advert Banners */
 
 .cta {
@@ -304,6 +306,19 @@ main {
   background: url(placeholder-vid-thumb-768x432.jpg) no-repeat;
   background-size: cover;
 
+}
+
+
+
+.ad-banner {
+  flex: 1 1 120px;
+  border: 1px dashed red;
+  width: 90%;
+  margin: 1rem auto;
+  min-width: 125px;
+  min-height: 125px;
+  display: flex;
+  flex-direction: column;
 }
 
 
