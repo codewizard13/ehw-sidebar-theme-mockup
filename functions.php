@@ -1,5 +1,10 @@
 <?php // functions.php
 
+/**
+ * Creates button
+ * @param mixed $args
+ * @return void
+ */
 function make_button($args) {
 
   $defaults = [
@@ -9,7 +14,8 @@ function make_button($args) {
     'full_width' => false,
     'has_icon' => false,
     'icon_classes' => '',
-    'icon_side' => 'right'
+    'icon_side' => 'right',
+    'button_classes' => ''
   ];
 
   // Merge provided arguments with defaults
