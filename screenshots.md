@@ -7,6 +7,13 @@
 
 Document site development progress with screenshots (_top-bottom = latest-oldest_).
 
+### 📆 2025-02-08
+
+**_index.php: 2025-02-08 [v 1.06] - PHP make_button() function works; defaults are set including hover; icon enabled for left or right_**
+
+![index.php: 2025-02-08 [v 1.06] - PHP make_button() function works; defaults are set including hover; icon enabled for left or right](/screens/screen-106--01--index--button-fn-works.jpg)
+
+
 ### 📆 2025-02-07
 
 **_index.php: 2025-02-07 [v 1.05] - Full with CTAS_**
