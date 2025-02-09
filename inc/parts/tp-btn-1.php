@@ -1,5 +1,4 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 
 
 <?php
@@ -38,8 +37,8 @@ function make_button($args) {
     if ('left' == $icon_side) {
       $icon_left = "<i class='btn-icon-left $icon_classes'></i>";
       $icon_right = "";
-    } else {
-      $icon_right = "<i class='btn-icon-left $icon_classes'></i>";
+    } else if ('right' == $icon_side) {
+      $icon_right = "<i class='btn-icon-right $icon_classes'></i>";
       $icon_left = "";
     }
   }
