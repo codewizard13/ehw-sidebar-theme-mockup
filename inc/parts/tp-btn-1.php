@@ -2,17 +2,30 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 
-
 <?php
-function make_button(
-  $text = 'Submit',
-  $background_color = 'gray',
-  $text_color = 'black',
-  $full_width = false,
-  $has_icon = false,
-  $icon_classes = '',
-  $icon_side = 'right'
-) {
+function make_button($args) {
+
+  $defaults = [
+    'text' => 'Submit',
+    'background_color' => 'gray',
+    'text_color' => 'black',
+    'full_width' => false,
+    'has_icon' => false,
+    'icon_classes' => '',
+    'icon_side' => 'right'
+  ];
+
+  // Merge provided arguments with defaults
+  $options = array_merge($defaults, $args);
+
+  $text = $options['text'];
+  $background_color = $options['background_color'];
+  $text_color = $options['text_color'];
+  $full_width = $options['full_width'];
+  $has_icon = $options['has_icon'];
+  $icon_classes = $options['icon_classes'];
+  $icon_side = $options['icon_side'];
+
 
   // Init
   $icon_left = '';
@@ -41,8 +54,45 @@ function make_button(
   echo $html;
 }
 
-make_button();
+// make_button();
 
-make_button( 'Give Now!', 'purple', 'white', true, true, "bi bi-hand-index-fill", 'left' );
-make_button( 'Give Now!', 'purple', 'white', true, true, "bi bi-hand-index-fill", 'right' );
-make_button( 'Give Now!', 'purple', 'white', true, true, "fa fa-folder", 'left' );
+// make_button( 'Give Now!', 'purple', 'white', true, true, "bi bi-hand-index-fill", 'left' );
+// make_button( 'Give Now!', 'purple', 'white', true, true, "bi bi-hand-index-fill", 'right' );
+// make_button( 'Give Now!', 'purple', 'white', true, true, "fa fa-folder", 'left' );
+
+
+
+$args = [
+  'text' => 'Submit',
+  'background_color' => 'gray',
+  'text_color' => 'black',
+  'full_width' => true,
+  'has_icon' => false,
+  'icon_classes' => '',
+  'icon_side' => 'right'
+];
+
+
+make_button($args);
+
+
+make_button( [
+  'text' => 'Give Now!',
+  'background_color' => 'purple',
+  'text_color' => 'white',
+  'full_width' => true,
+  'has_icon' => true,
+  'icon_classes' => 'bi bi-hand-index-fill',
+  'icon_side' => 'left'
+] );
+
+
+make_button( [
+  'text' => 'Sign Up!',
+  'background_color' => 'navy',
+  'text_color' => 'cornflowerblue',
+  'full_width' => true,
+  'has_icon' => true,
+  'icon_classes' => 'fa fa-folder',
+  'icon_side' => 'right'
+] );
