@@ -13,6 +13,7 @@
   --clr-robin-egg-blue: #00CAD0;
   --clr-onyx: #373943;
   --clr-amethyst: #9a6fd7;
+  --clr-seasalt: #f9fbfe;
 
   --color-primary: teal;
   --color-secondary: var(--clr-oxford-blue);
@@ -322,8 +323,21 @@ main {
 }
 
 
+
+/* Buttons */
+
 .btn-main {
   margin: .5rem auto;
+  background-color: var(--color-primary);
+  color: var(--clr-seasalt);
+  width: 100%;
+  padding: .2rem .4rem .4rem;
+  text-align: center;
+  border-radius: .4rem;
+  border: var(--color-primary);
+}
+.btn-main:hover {
+  opacity: .85;
 }
 
 
@@ -333,6 +347,8 @@ main {
 .btn-icon-right {
   margin-left: .3rem;
 }
+
+
 
 
 

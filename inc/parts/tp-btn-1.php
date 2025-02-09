@@ -95,3 +95,8 @@ make_button( [
   'icon_classes' => 'fa fa-folder',
   'icon_side' => 'right'
 ] );
+
+
+?>
+
+<button class="btn-main">Subscribe</button>
