@@ -1,14 +1,6 @@
-
-
-
 <?php
 
-
 // make_button();
-
-// make_button( 'Give Now!', 'purple', 'white', true, true, "bi bi-hand-index-fill", 'left' );
-// make_button( 'Give Now!', 'purple', 'white', true, true, "bi bi-hand-index-fill", 'right' );
-// make_button( 'Give Now!', 'purple', 'white', true, true, "fa fa-folder", 'left' );
 
 
 
