@@ -25,9 +25,14 @@
   <div class="container">
     <header>
       <!-- Header content -->
-      Header
+      <H4>
+        <?php echo SITE_TITLE ?><br>
+        <?php echo "VERSION: " . VERSION_NUM ?><br>
+      </H4>
+
     </header>
 
+    <!-- BEGIN content-wrapper -->
     <div class="content-wrapper">
 
       <!-- BEGIN main-content -->
@@ -41,16 +46,8 @@
       </main><!-- END main-content -->
 
       <!-- BEGIN sidebar -->
-      <aside class="sidebar">
-
-        <?php include('inc/parts/tp-ad-banner-1.php') ?>
-
-        <?php include('inc/parts/tp-btn-1.php') ?>
-
-        <!-- Sidebar / Ads -->
-        <?php include('inc/sidebar-main.php') ?>
-
-      </aside><!-- END sidebar -->
+      <?php include('inc/sidebar-main.php') ?>
+      <!-- END sidebar -->
 
     </div>
 
@@ -58,7 +55,8 @@
       <!-- Footer content -->
       Footer
     </footer>
-  </div>
+
+  </div><!-- END content-wrapper ->
 
 
   <!-- END BODY -->

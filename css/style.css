@@ -48,7 +48,9 @@
 
   /* IMAGES */
 
-  --dummy-vid-thumb: url("placeholder-vid-thumb-768x432.jpg");
+  --placeholder-vid-thumb-768x432: url("placeholder-vid-thumb-768x432.jpg");
+  --placeholder-ad-512x512: url("placeholder-512x512.jpg");
+  
 
   /* Emojis & Icons */
 
@@ -225,7 +227,7 @@ main {
   width: 100%;
   aspect-ratio: 768 / 432;
   border: 2px solid purple;
-  background-image: var(--dummy-vid-thumb);
+  background-image: var(--placeholder-vid-thumb-768x432);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -316,10 +318,13 @@ main {
   border: 1px dashed red;
   width: 90%;
   margin: 1rem auto;
-  min-width: 125px;
   min-height: 125px;
   display: flex;
   flex-direction: column;
+  background: var(--placeholder-ad-512x512);
+  background-size: contain;
+  background-repeat: no-repeat;
+  aspect-ratio: 1/1; /* ensure the image is a square */
 }
 
 
