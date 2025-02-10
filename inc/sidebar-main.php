@@ -2,6 +2,16 @@
 
 <aside class="sidebar">
 
+  <aside class="">
+    <h4><i class="fa fa-bullhorn"></i>Share your story!</h4>
+    <?php echo make_button([
+      'text' => 'Share your story!',
+      'background-color' => 'transparent',
+      'text_color' => $robin_egg_blue
+    ]); ?>
+  </aside>
+
+
   <?php include('inc/parts/tp-ad-banner-1.php') ?>
 
   <?php include('inc/parts/tp-btn-1.php') ?>
