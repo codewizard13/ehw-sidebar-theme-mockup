@@ -15,7 +15,10 @@ function make_button($args) {
     'has_icon' => false,
     'icon_classes' => '',
     'icon_side' => 'right',
-    'button_classes' => ''
+    'button_classes' => '',
+    'button_styles' => '',
+    'href' => '',
+    'link_target' => ''
   ];
 
   // Merge provided arguments with defaults
@@ -28,6 +31,10 @@ function make_button($args) {
   $has_icon = $options['has_icon'];
   $icon_classes = $options['icon_classes'];
   $icon_side = $options['icon_side'];
+  $button_classes = $options['button_classes'];
+  $button_styles = $options['button_styles'];
+  $href = $options['href'];
+  $link_target = $options['link_target'];
 
 
   // Init
@@ -36,6 +43,7 @@ function make_button($args) {
 
   $style = "background-color: $background_color;";
   $style .= "color: $text_color;";
+  $style .= '' !== $button_styles ? "$button_styles;" : '';
 
   if ($has_icon) {
     if ('left' == $icon_side) {
@@ -50,8 +58,11 @@ function make_button($args) {
     $style .= "width: 100%;";
   }
 
-  $html = "<button class='btn-main'";
-  $html .= "style='$style' >$icon_left$text$icon_right";
+  $html = "<button class='btn-main $button_classes'";
+  $html .= "style='$style'>";
+  $html .= '' !== $href ? "<a href='$href' target='$link_target'>" : '';
+  $html .= "$icon_left$text$icon_right";
+  $html .= '' !== $href ? "</a>" : '';
   $html .= "</button>";
 
   echo $html;

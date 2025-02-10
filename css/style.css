@@ -311,6 +311,11 @@ main {
 
 }
 
+.cta-vert-stack {
+  display: flex;
+  flex-direction: column;
+}
+
 
 
 .ad-banner {
