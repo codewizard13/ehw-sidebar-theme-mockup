@@ -345,6 +345,17 @@ main {
   opacity: .85;
 }
 
+/* TEXT LINK: No underline, no blue/purple color */
+.text-link a:link,
+.text-link a:visited {
+  text-decoration: none !important;
+  color: unset;
+}
+/* .btn-main a:link,
+.btn-main a:visited {
+  text-decoration: none !important;
+} */
+
 
 .btn-icon-left {
   margin-right: .3rem;
