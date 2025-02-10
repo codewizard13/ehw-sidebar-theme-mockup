@@ -1,16 +1,45 @@
-<!-- Sidebar / Ads -->
+<!-- BEGIN sidebar -->
 
 <aside class="sidebar">
 
-  <aside class="">
-    <h4><i class="fa fa-bullhorn"></i>Share your story!</h4>
+  <!-- BEGIN Testimonial CTA -->
+  <article class="cta-vert-stack">
+
+    <!-- Icon link -->
     <?php echo make_button([
       'text' => 'Share your story!',
-      'background-color' => 'transparent',
-      'text_color' => $robin_egg_blue
+      'background_color' => 'transparent',
+      'text_color' => $theme_colors['secondary'],
+      'has_icon' => true,
+      'icon_classes' => 'fa fa-bullhorn',
+      'icon_side' => 'left',
+      'button_styles' => 'font-weight:bold',
+      'href' => 'https://www.google.com',
+      'link_target' => '_blank',
+      'button_classes' => 'text-link'
     ]); ?>
-  </aside>
 
+    <!-- Button: Jump to Testimonials Pg -->
+    <?php echo make_button([
+      'text' => 'Give My Testimony!',
+      'background_color' => $theme_colors['primary'],
+      'text_color' => $theme_colors['seasalt'],
+      'has_icon' => true,
+      'icon_classes' => 'fa fa-long-arrow-alt-right',
+      'icon_side' => 'right',
+      'button_styles' => 'font-weight:bold; text-transform:uppercase',
+      'href' => 'https://www.google.com',
+      'link_target' => '_blank',
+      'button_classes' => 'text-link'
+    ]); ?>
+  </article>
+  <!-- END Testimonial CTA -->
+
+  <?php
+  make_button([
+    'text' => 'Share your story!'
+  ]);
+  ?>
 
   <?php include('inc/parts/tp-ad-banner-1.php') ?>
 
