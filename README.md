@@ -36,13 +36,13 @@
 
 ### index.php
 
-**_index.php: 2025-02-08 [v 1.06] - PHP make_button() function works; defaults are set including hover; icon enabled for left or right_**
+**_index.php: 2025-02-11 [v 1.07] - Sidebar: Font-size clamp works in testimonial CTA_**
 
-![index.php: 2025-02-08 [v 1.06] - PHP make_button() function works; defaults are set including hover; icon enabled for left or right](/screens/screen-106--01--index--button-fn-works.jpg)
+![index.php: 2025-02-11 [v 1.07] - Sidebar: Font-size clamp works in testimonial CTA](/screens/screen-107--01--index--sb-testimonial-cta-font-clamp-works.jpg)
 
 ### Screen Sizes
 
-![index.php [branch 03]](/img/ehd-mockup-sizes-02.jpg)
+![index.php [branch 03]](/img/ehd-mockup-sizes-107.jpg)
 
 
 ## TAGS

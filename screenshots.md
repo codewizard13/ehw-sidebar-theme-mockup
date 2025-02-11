@@ -7,6 +7,12 @@
 
 Document site development progress with screenshots (_top-bottom = latest-oldest_).
 
+### 📆 2025-02-11
+
+**_index.php: 2025-02-11 [v 1.07] - Sidebar: Font-size clamp works in testimonial CTA_**
+
+![index.php: 2025-02-11 [v 1.07] - Sidebar: Font-size clamp works in testimonial CTA](/screens/screen-107--01--index--sb-testimonial-cta-font-clamp-works.jpg)
+
 ### 📆 2025-02-08
 
 **_index.php: 2025-02-08 [v 1.06] - PHP make_button() function works; defaults are set including hover; icon enabled for left or right_**
