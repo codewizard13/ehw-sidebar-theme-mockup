@@ -314,8 +314,22 @@ main {
 .cta-vert-stack {
   display: flex;
   flex-direction: column;
+  background: white;
+  width: auto;
+  max-width: 100%;
+  border: dashed 1px blue;
+  font-size: clamp(.7rem, 1.2vw, 1rem);
+  margin: 1rem;
 }
 
+
+/* SIDEBAR WIDGET: Testimonial CTA */
+
+.sb-cta-testimonial {
+  background: white;
+  width: 100%;
+  margin: 1rem;
+}
 
 
 .ad-banner {
