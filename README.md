@@ -3,8 +3,8 @@
 | Program Name  | **PHP MOCKUP: EHW Right-Sidebar WordPress Theme (from scratch)** |
 | File Name     | README.md                                                        |
 | Date Created  | 01/31/2025                                                       |
-| Date Modified | 02/09/2025                                                       |
-| Version       | 00.01.07                                                         |
+| Date Modified | 02/11/2025                                                       |
+| Version       | 00.01.08                                                         |
 | Programmer    | **Eric Hepperle**                                                |
 
 ### GITHUB REPO
